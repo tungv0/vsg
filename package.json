@@ -3,6 +3,10 @@
   "description": "Homepage for VoSquared",
   "version": "1.0.0",
   "author": "Tung Vo",
+  "engines": {
+    "node": "^8.0.0",
+    "yarn": "^1.2.1"
+  },
   "dependencies": {
     "gatsby": "^2.0.0",
     "gatsby-plugin-manifest": "^2.0.2",
