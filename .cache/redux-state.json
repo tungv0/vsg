@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/tungvo/workdir/vosquared-g/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/tungvo/workdir/vosquared-g/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8f3daab8b1fc46600daa3c0cb0ff2a63",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -528,7 +519,7 @@
       "resolve": "/Users/tungvo/workdir/vosquared-g",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "5031ec58ed392448612cc667dad51561",
+      "version": "0b56368df517f4b97569193801fd8460",
       "pluginOptions": {
         "plugins": []
       },
@@ -537,14 +528,10 @@
       "ssrAPIs": [],
       "pluginFilepath": "/Users/tungvo/workdir/vosquared-g",
       "packageJson": {
-        "name": "gatsby-starter-stellar",
-        "description": "Gatsby Starter - Stellar by HTML5 UP",
+        "name": "VoSquared App",
+        "description": "Homepage for VoSquared",
         "version": "1.0.0",
-        "keywords": [
-          "gatsby"
-        ],
-        "author": "Hunter Chang",
-        "license": "MIT",
+        "author": "Tung Vo",
         "dependencies": [
           {
             "name": "gatsby",
@@ -608,7 +595,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0bb96640ee3bed52908f6121686a14fa",
+        "contentDigest": "e0f47e778486331b3977a9489051a915",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -710,21 +697,39 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Starter - Stellar by HTML5 UP",
-        "author": "Hunter Chang",
-        "description": "A Gatsby.js Starter based on Stellar by HTML5 UP"
+        "title": "VoSquared Homepage",
+        "author": "Tung Vo",
+        "description": "Homepage for VoSquared"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-13T01:47:42.896Z",
+      "buildTime": "2018-10-13T03:53:24.641Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "055e78381586aafb21d1725167887c11",
+        "contentDigest": "f409b45137a9fca74a9df0b068a1178e",
         "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /offline-plugin-app-shell-fallback/": {
+      "jsonName": "offline-plugin-app-shell-fallback-a30",
+      "internalComponentName": "ComponentOfflinePluginAppShellFallback",
+      "path": "/offline-plugin-app-shell-fallback/",
+      "component": "/Users/tungvo/workdir/vosquared-g/node_modules/gatsby-plugin-offline/app-shell.js",
+      "componentChunkName": "component---node-modules-gatsby-plugin-offline-app-shell-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-offline",
+      "pluginCreatorId": "Plugin gatsby-plugin-offline",
+      "componentPath": "/Users/tungvo/workdir/vosquared-g/node_modules/gatsby-plugin-offline/app-shell.js",
+      "id": "SitePage /offline-plugin-app-shell-fallback/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "93cf5a9db2c37aee92a0772c1f4803e1",
+        "description": "Plugin gatsby-plugin-offline",
         "owner": "internal-data-bridge"
       }
     },
@@ -811,7 +816,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "5b1fbfaf5659bcfd558ed58f06c5002e"
+    "PLUGINS_HASH": "7b546710d4f6c2cf645414af3fe6f363"
   },
   "componentDataDependencies": {
     "nodes": {},
@@ -826,6 +831,10 @@
     "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E"
   },
   "components": {
+    "/Users/tungvo/workdir/vosquared-g/node_modules/gatsby-plugin-offline/app-shell.js": {
+      "query": "",
+      "componentPath": "/Users/tungvo/workdir/vosquared-g/node_modules/gatsby-plugin-offline/app-shell.js"
+    },
     "/Users/tungvo/workdir/vosquared-g/src/pages/404.js": {
       "query": "",
       "componentPath": "/Users/tungvo/workdir/vosquared-g/src/pages/404.js"
@@ -837,10 +846,6 @@
     "/Users/tungvo/workdir/vosquared-g/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/tungvo/workdir/vosquared-g/src/pages/index.js"
-    },
-    "/Users/tungvo/workdir/vosquared-g/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/tungvo/workdir/vosquared-g/.cache/dev-404-page.js"
     }
   },
   "staticQueryComponents": {}
