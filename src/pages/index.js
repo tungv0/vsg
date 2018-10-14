@@ -59,23 +59,23 @@ class Index extends React.Component {
 
           <section id="first" className="main special">
             <header className="major">
-              <h2>Magna veroeros</h2>
+              <h2>Our Promises</h2>
             </header>
             <ul className="features">
               <li>
-                <span className="icon major style1 fa-code"></span>
-                <h3>Ipsum consequat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <span className="icon major style1 fal fa-gift"></span>
+                <h3>Any Occassions</h3>
+                <p>We will work with you to make any occassions extra special, from joyful children birthday to momentus celebration.</p>
               </li>
               <li>
-                <span className="icon major style3 fa-copy"></span>
-                <h3>Amed sed feugiat</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <span className="icon major style3 fa-home"></span>
+                <h3>Absolutely Creative</h3>
+                <p>Our create team can transform any space into enjoyable environment for your guests.</p>
               </li>
               <li>
                 <span className="icon major style5 fa-diamond"></span>
-                <h3>Dolor nullam</h3>
-                <p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
+                <h3>Always Responsive</h3>
+                <p>Our goal is to take away completely the stress of planning and organization. So, we always listen and responsive.</p>
               </li>
             </ul>
             <footer className="major">
