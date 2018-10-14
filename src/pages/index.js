@@ -28,7 +28,7 @@ class Index extends React.Component {
 
     return (
       <Layout>
-        <Helmet title="Gatsby Starter - Stellar" />
+        <Helmet title="VoSquared" />
 
         <Header />
 
@@ -45,11 +45,10 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Ipsum sed adipiscing</h2>
+                  <h2>Obsessed With Others' Happiness</h2>
                 </header>
-                <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-                adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-                Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+                <p>We work hard so that you can enjoy the special occassions. Life is too short 
+                and let's not waste it on logistics.</p>
                 <ul className="actions">
                   <li><Link to="/generic" className="button">Learn More</Link></li>
                 </ul>
@@ -130,7 +129,7 @@ class Index extends React.Component {
             </header>
             <footer className="major">
               <ul className="actions">
-                <li><Link to="/generic" className="button special">Get Started</Link></li>
+                <li><Link to="/generic" className="button special">Contact Us</Link></li>
                 <li><Link to="/generic" className="button">Learn More</Link></li>
               </ul>
             </footer>

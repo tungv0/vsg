@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
-import logo from '../assets/images/logo.svg';
+import logo from '../assets/images/logo.png';
 
 const Footer = (props) => (
     <footer id="footer">
@@ -30,7 +30,6 @@ const Footer = (props) => (
                 <li><a href="#" className="icon fa-dribbble alt"><span className="label">Dribbble</span></a></li>
             </ul>
         </section>
-        <p className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
     </footer>
 )
 
