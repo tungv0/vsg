@@ -45,7 +45,7 @@ class Index extends React.Component {
             <div className="spotlight">
               <div className="content">
                 <header className="major">
-                  <h2>Obsessed With Others' Happiness</h2>
+                  <h2>Obsessed With Your Happiness</h2>
                 </header>
                 <p>We work hard so that you can enjoy the special occassions. Life is too short 
                 and let's not waste it on logistics.</p>
